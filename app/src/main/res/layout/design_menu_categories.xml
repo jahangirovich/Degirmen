@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clickable="true"
+    android:padding="10dp"
+    android:id="@+id/container"
+    android:orientation="horizontal"
+    android:foreground="?android:selectableItemBackground">
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="Soup"
+        android:theme="@style/MyCheckBox"
+        android:textColor="@color/mini_black"
+        android:fontFamily="@font/ralewaybold"
+        android:textSize="17dp"
+        android:id="@+id/checkBox"/>
+</LinearLayout>
